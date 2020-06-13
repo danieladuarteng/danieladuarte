@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import Profile from "../components/Profile"
+import PostItem from "../components/PostItem"
 import SEO from "../components/seo"
 
 const description = `
@@ -22,21 +22,15 @@ para este blog, minha newsletter e LinkedIn.`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Home</h1>
-    <ul>
-      <li>
-        <Link to="/" activeStyle={{ color: "red" }}>
-          Home
-        </Link>
-      </li>
-      <li>
-        <Link to="/sobre-mim">Sobre mim</Link>
-      </li>
-    </ul>
     <Profile
       title="Oii, eu sou a Daniela..."
       description={description}
       button={{ title: "Saiba mais ", route: "/sobre-mim" }}
+    />
+    <PostItem
+      slug="/slug/"
+      title="Title of post"
+      description="Description of post"
     />
   </Layout>
 )

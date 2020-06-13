@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import Profile from "../components/Profile"
 import SEO from "../components/seo"
@@ -25,19 +24,6 @@ const AboutPage = () => {
   return (
     <Layout>
       <SEO title="Sobre mim" />
-      <h1>Sobre mim</h1>
-      <ul>
-        <li>
-          <Link to="/" activeStyle={{ color: "red" }}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/sobre-mim" activeStyle={{ color: "red" }}>
-            Sobre mim
-          </Link>
-        </li>
-      </ul>
       <Profile title="Oii, eu sou a Daniela..." description={description} />
     </Layout>
   )
