@@ -1,4 +1,5 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Profile from "../components/Profile"
 import PostItem from "../components/PostItem"
@@ -19,20 +20,50 @@ Além disso, produzo conteúdo sobre
 tecnologia, experiências e aprendizados 
 para este blog, minha newsletter e LinkedIn.`
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Profile
-      title="Oii, eu sou a Daniela..."
-      description={description}
-      button={{ title: "Saiba mais ", route: "/sobre-mim" }}
-    />
-    <PostItem
-      slug="/slug/"
-      title="Title of post"
-      description="Description of post"
-    />
-  </Layout>
-)
+const IndexPage = () => {
+  const { allMarkdownRemark } = useStaticQuery(graphql`
+    query PostList {
+      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+        edges {
+          node {
+            frontmatter {
+              category
+              date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
+              description
+              title
+            }
+            timeToRead
+            fields {
+              url
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  const postList = allMarkdownRemark.edges
+
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Profile
+        title="Oii, eu sou a Daniela..."
+        description={description}
+        button={{ title: "Saiba mais ", route: "/sobre-mim" }}
+      />
+      {postList.map(
+        ({
+          node: {
+            frontmatter: { title, description },
+            fields: { url },
+          },
+        }) => (
+          <PostItem url={url} title={title} description={description} />
+        )
+      )}
+    </Layout>
+  )
+}
 
 export default IndexPage

@@ -2,8 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import * as Style from "./styled"
 
-const PostItem = ({ slug, title, description }) => (
-  <Style.PostItemLink to={slug}>
+const PostItem = ({ url, title, description }) => (
+  <Style.PostItemLink to={url}>
     <Style.PostItemWrapper>
       <Style.PostItemTitle>{title}</Style.PostItemTitle>
       <Style.PostItemDescription>{description}</Style.PostItemDescription>
@@ -12,7 +12,7 @@ const PostItem = ({ slug, title, description }) => (
 )
 
 PostItem.propTypes = {
-  slug: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 }
