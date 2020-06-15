@@ -1,5 +1,6 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
+
 import Layout from "../components/Layout"
 import Profile from "../components/Profile"
 import PostItem from "../components/PostItem"
@@ -62,6 +63,7 @@ const IndexPage = () => {
           <PostItem url={url} title={title} description={description} />
         )
       )}
+      <Link to="/blog">TODOS OS POSTS</Link>
     </Layout>
   )
 }
