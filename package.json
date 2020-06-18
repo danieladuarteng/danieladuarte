@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
+    "gatsby-plugin-remove-trailing-slashes": "^2.3.5",
     "prettier": "2.0.5"
   },
   "keywords": [

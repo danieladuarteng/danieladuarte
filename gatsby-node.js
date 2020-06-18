@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: "url",
-      value: `/${relativeFilePath}`,
+      value: `${relativeFilePath.slice(0,-1)}`,
     })
   }
 }

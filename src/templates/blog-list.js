@@ -1,12 +1,18 @@
 import React from "react"
 import Layout from "../components/Layout"
 import PostItem from "../components/PostItem"
+import Pagination from "../components/Pagination"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
 
 const BlogList = props => {
-  console.log({ props })
   const postList = props.data && props.data.allMarkdownRemark.edges
+
+  const { currentPage, numPages } = props.pageContext
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage = currentPage - 1 === 1 ? "/blog" : `/blog/page/${currentPage - 1}`
+  const nextPage = `/blog/page/${currentPage + 1}`
 
   return (
     <Layout>
@@ -18,9 +24,17 @@ const BlogList = props => {
             fields: { url },
           },
         }) => (
-          <PostItem url={url} title={title} description={description} />
-        )
+            <PostItem url={url} title={title} description={description} />
+          )
       )}
+      <Pagination
+        isFirst={isFirst}
+        isLast={isLast}
+        currentPage={currentPage}
+        numPages={numPages}
+        prevPage={prevPage}
+        nextPage={nextPage}
+      />
     </Layout>
   )
 }
