@@ -1,7 +1,7 @@
 import React from "react"
-import Layout from "../components/Layout"
 import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
 

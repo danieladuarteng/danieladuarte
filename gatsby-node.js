@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: "url",
-      value: `${relativeFilePath.slice(0,-1)}`,
+      value: `${relativeFilePath.slice(0, -1)}`,
     })
   }
 }
@@ -46,18 +46,37 @@ exports.createPages = ({ graphql, actions }) => {
             fields {
               url
             }
+            next {
+              id
+              fields {
+                url
+              }
+              frontmatter {
+                title
+              }
+            }
+            previous {
+              frontmatter {
+                title
+              }
+              fields {
+                url
+              }
+            }
           }
         }
       }
     }
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
-    posts.forEach(({ node }) => {
+    posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.url,
         component: path.resolve("./src/templates/blog-post.js"),
         context: {
           url: node.fields.url, // here is a query variable
+          previousPost: next,
+          nextPost: previous
         },
       })
     })

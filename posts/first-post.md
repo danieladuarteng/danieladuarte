@@ -11,6 +11,19 @@ category: tecnologia
 
 Form building in React using hooks and formik for validate fields
 
+![Sapato em cima do notebook](/assets/img/notebook-e-sapato-rosa-na-mesa.png)
+
+
+```jsx
+const a = 2;
+if(a === "2"){
+  return true
+} else {
+  return false
+}
+
+```
+
 ## Required
 
 [NodeJS v10.16.4 or higher](https://nodejs.org/en/)
