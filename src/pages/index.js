@@ -45,6 +45,8 @@ const IndexPage = () => {
 
   const postList = allMarkdownRemark.edges
 
+
+
   return (
     <Layout>
       <SEO title="Home" />
@@ -60,8 +62,8 @@ const IndexPage = () => {
             fields: { url },
           },
         }) => (
-          <PostItem url={url} title={title} description={description} />
-        )
+            <PostItem url={url} title={title} description={description} />
+          )
       )}
       <Link to="/blog">TODOS OS POSTS</Link>
     </Layout>

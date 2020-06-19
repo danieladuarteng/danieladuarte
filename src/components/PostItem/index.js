@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import * as Style from "./styled"
 
 const PostItem = ({ url, title, description }) => (
+
   <Style.PostItemLink to={url}>
     <Style.PostItemWrapper>
       <Style.PostItemTitle>{title}</Style.PostItemTitle>
