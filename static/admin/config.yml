@@ -29,21 +29,6 @@ collections:
               {label: "LIVROS", value: "livros"}
             ],
         }
-      - {
-          label: 'Color',
-          name: 'color',
-          widget: 'select',
-          options:
-            [
-              { label: 'Jekyll', value: '#B31917' },
-              { label: 'CSS', value: '#2DA0C3' },
-              { label: 'JS', value: '#D6BA32' },
-              { label: 'HTML', value: '#EB7728' },
-              { label: 'SVG', value: '#7D669E' },
-              { label: 'Dev', value: '#637a91' },
-              { label: 'Misc', value: '#7AAB13' },
-            ],
-        }
       - { label: "Author", name: "author", widget: "string"}
       - { label: "Description", name: "description", widget: "string" }
       - {
