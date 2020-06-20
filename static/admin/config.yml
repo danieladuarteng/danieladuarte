@@ -28,7 +28,7 @@ collections:
             {label: "MULHERES TI", value: "mulheres-ti" },
             {label: "LIVROS", value: "livros"}
           ],
-        },
+        }
       - {
           label: 'Color',
           name: 'color',
