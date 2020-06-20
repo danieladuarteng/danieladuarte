@@ -1,5 +1,5 @@
 ---
-title: A importancia de ter um site o novo curriculo online
+title: "A importância de ter um site o novo: currículo online"
 category: ti-para-todos
 author: Daniela Duarte
 description: Para se destacar entre os profissionais, hoje a posta é ter um site
