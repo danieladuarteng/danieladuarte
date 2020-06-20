@@ -24,7 +24,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: "slug",
-      value: `/blog${relativeFilePath.slice(0, -1)}`,
+      value: `/${node.frontmatter.category}/blog${relativeFilePath.slice(0, -1)}`,
     })
   }
 }
