@@ -1,9 +1,9 @@
 ---
-title: Tecnologia e so coisa de homem
+title: Tecnologia é só coisa de homem?
 category: mulheres-ti
 author: Daniela Duarte
 description: Será que tecnologia só foi feita para os homens?
-date: 2017-12-07 02:41:39
+date: 2017-12-07T02:41:39.000Z
 thumbnail: assets/img/notebook-e-sapato-rosa-na-mesa.png
 urlImage: http://danieladuarte.com.br/
 nameUrl: Daniela Duarte
