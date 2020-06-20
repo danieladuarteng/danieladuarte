@@ -29,7 +29,7 @@ collections:
             {label: "LIVROS", value: "livros"}
           ],
         },
-         {
+      - {
           label: 'Color',
           name: 'color',
           widget: 'select',
