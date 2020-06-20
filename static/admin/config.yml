@@ -17,17 +17,17 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { 
-        label: "Category",
-        name: "category", 
-        widget: "select", 
-        options: 
-          [
-            {label: "TI PARA TODOS", value: "ti-para-todos"},
-            {label: "APRENDIZADOS", value: "aprendizados" },
-            {label: "TECNOLOGIA", value: "tecnologia" },
-            {label: "MULHERES TI", value: "mulheres-ti" },
-            {label: "LIVROS", value: "livros"}
-          ],
+          label: "Category",
+          name: "category", 
+          widget: "select", 
+          options: 
+            [
+              {label: "TI PARA TODOS", value: "ti-para-todos"},
+              {label: "APRENDIZADOS", value: "aprendizados" },
+              {label: "TECNOLOGIA", value: "tecnologia" },
+              {label: "MULHERES TI", value: "mulheres-ti" },
+              {label: "LIVROS", value: "livros"}
+            ],
         }
       - {
           label: 'Color',
