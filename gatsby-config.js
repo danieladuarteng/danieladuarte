@@ -3,7 +3,7 @@ module.exports = {
     title: `Daniela Duarte`,
     description: `Daniela Duarte - Desenvolvedora Frontend`,
     author: `Daniela Duarte`,
-    siteUrl: `danieladuarte.netlify.app`,
+    siteUrl: `https://danieladuarte.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
