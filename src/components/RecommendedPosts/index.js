@@ -6,14 +6,14 @@ const RecommendedPosts = ({ next, previous }) => (
   <Style.RecommendedWrapper>
     {previous && (
       <Style.RecommendedLink
-        to={previous.fields.url}
+        to={previous.fields.slug}
         className="previous">
         {previous.frontmatter.title}
       </Style.RecommendedLink>
     )}
     {next && (
       <Style.RecommendedLink
-        to={next.fields.url}
+        to={next.fields.slug}
         className="next">
         {next.frontmatter.title}
       </Style.RecommendedLink>
@@ -24,7 +24,7 @@ const RecommendedPosts = ({ next, previous }) => (
 RecommendedPosts.propTypes = {
   next: PropTypes.shape({
     fields: PropTypes.shape({
-      url: PropTypes.string.isRequired
+      slug: PropTypes.string.isRequired
     }),
     frontmatter: PropTypes.shape({
       title: PropTypes.string.isRequired
@@ -32,7 +32,7 @@ RecommendedPosts.propTypes = {
   }),
   previous: PropTypes.shape({
     fields: PropTypes.shape({
-      url: PropTypes.string.isRequired
+      slug: PropTypes.string.isRequired
     }),
     frontmatter: PropTypes.shape({
       title: PropTypes.string.isRequired

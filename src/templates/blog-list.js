@@ -21,10 +21,10 @@ const BlogList = props => {
         ({
           node: {
             frontmatter: { title, description },
-            fields: { url },
+            fields: { slug },
           },
         }) => (
-            <PostItem url={url} title={title} description={description} />
+            <PostItem slug={slug} title={title} description={description} />
           )
       )}
       <Pagination
@@ -56,7 +56,7 @@ export const query = graphql`
           }
           timeToRead
           fields {
-            url
+            slug
           }
         }
       }

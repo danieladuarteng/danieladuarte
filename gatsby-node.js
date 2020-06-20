@@ -22,8 +22,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     // Creates new query'able field with name of 'url'
     createNodeField({
       node,
-      name: "url",
-      value: `/blog${relativeFilePath.slice(0, -1)}`,
+      name: "slug",
+      value: `/blog${relativeFilePath.slice(12, -1)}`,
     })
   }
 }
@@ -44,12 +44,12 @@ exports.createPages = ({ graphql, actions }) => {
           }
           timeToRead
           fields {
-            url
+            slug
           }
         }
         next {
           fields {
-            url
+            slug
           }
           frontmatter {
             title
@@ -57,7 +57,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
         previous {
           fields {
-            url
+            slug
           }
           frontmatter {
             title
@@ -66,15 +66,14 @@ exports.createPages = ({ graphql, actions }) => {
       }
     }
   }
-  
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
     posts.forEach(({ node, next, previous }) => {
       createPage({
-        path: node.fields.url,
+        path: node.fields.slug,
         component: path.resolve("./src/templates/blog-post.js"),
         context: {
-          url: node.fields.url, // here is a query variable
+          slug: node.fields.slug, // here is a query variable
           previousPost: next,
           nextPost: previous
         },

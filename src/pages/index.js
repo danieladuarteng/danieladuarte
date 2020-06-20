@@ -35,7 +35,7 @@ const IndexPage = () => {
             }
             timeToRead
             fields {
-              url
+              slug
             }
           }
         }
@@ -59,10 +59,10 @@ const IndexPage = () => {
         ({
           node: {
             frontmatter: { title, description },
-            fields: { url },
+            fields: { slug },
           },
         }) => (
-            <PostItem url={url} title={title} description={description} />
+            <PostItem slug={slug} title={title} description={description} />
           )
       )}
       <Link to="/blog">TODOS OS POSTS</Link>

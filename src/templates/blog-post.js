@@ -23,21 +23,21 @@ const BlogPost = ({ data, pageContext }) => {
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
       </Style.MainContent>
       <RecommendedPosts next={next} previous={previous} />
-      <Comments url={post.fields.url} title={post.frontmatter.title} />
+      <Comments url={post.fields.slug} title={post.frontmatter.title} />
     </Layout>
   )
 }
 
 export const query = graphql`
-  query Post($url: String!) {
-    markdownRemark(fields: { url: { eq: $url } }) {
+  query Post($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
         description
         date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
       }
       fields {
-        url
+        slug
       }
       html
       timeToRead
