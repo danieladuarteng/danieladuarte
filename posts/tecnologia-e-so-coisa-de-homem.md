@@ -32,7 +32,7 @@ Esse é outro fator que nos leva a não ter vontade de entrar na área: não tem
 
 <!--EndFragment-->
 
-![ADA LOVELACE](assets/img/ada-lovelace.jpg "ADA LOVELACE | WIKIPEDIA")
+![ADA LOVELACE](assets/img/ada-lovelace.jpg)
 
 <!--StartFragment-->
 
@@ -56,4 +56,4 @@ Deixo essa propaganda como reflexão, mostra bem o que a indústria definiu que 
 
 <!--EndFragment-->
 
-<iframe width="330" height="186" src="https://www.youtube.com/embed/Sg4dhYlakJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sg4dhYlakJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
