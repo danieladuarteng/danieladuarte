@@ -1,9 +1,20 @@
 import styled from "styled-components"
 
 export const ProfileWrapper = styled.section`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "avatar description";
 `
 
 export const ProfileDescription = styled.div`
-  display: block;
+  grid-area: description;
+  background-color: #029DDB;
+  color: #fff;
+  padding: 20px 40px
+`
+
+export const ProfileAvatar = styled.div`
+  grid-area: avatar;
 `

@@ -55,8 +55,18 @@ const GlobalStyles = createGlobalStyle`
   }
   img {
     display: block;
-  	width: 100%;
-  	height: auto;
+    width: 100%;
+    height: auto;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 35px;
   }
 `
 export default GlobalStyles

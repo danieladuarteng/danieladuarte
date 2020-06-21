@@ -11,11 +11,11 @@ export const MenuList = styled.ul`
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
 `
 
 export const MenuItem = styled.li`
-  padding: 5px;
-  width: 250px;
   text-align: center;
   text-transform: uppercase;
 

@@ -8,7 +8,7 @@ const Avatar = () => {
       query {
         avatarImage: file(relativePath: { eq: "daniela-duarte.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 500) {
+            fluid(maxWidth: 500, maxHeight: 450) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
@@ -20,7 +20,7 @@ const Avatar = () => {
     <Img
       fluid={avatarImage.childImageSharp.fluid}
       alt="Daniela Duarte"
-      style={{ width: "500px" }}
+      style={{ width: "500px", height: "450px" }}
     />
   )
 }
