@@ -66,7 +66,7 @@ const GlobalStyles = createGlobalStyle`
   h1 {
     font-size: 2.2rem;
     line-height: 2.5rem;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
 `
 export default GlobalStyles
