@@ -8,6 +8,10 @@ publish_mode: editorial_workflow
 media_folder: "static/assets/img"
 public_folder: "assets/img"
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
@@ -38,6 +42,7 @@ collections:
           format: "YYYY-MM-DD hh:mm:ss",
         }
       - { label: "image", name: "thumbnail", widget: "image" }
+      - { label: "Alt", name: "alt", widget: "string" }
       - { label: "UrlImage", name: "urlImage", widget: "string" }
-      - { label: "NameImage", name: "nameUrl", widget: "string" }
+      - { label: "Legend", name: "legend", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
