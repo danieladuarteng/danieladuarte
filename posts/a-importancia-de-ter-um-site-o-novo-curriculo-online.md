@@ -1,4 +1,5 @@
 ---
+nameUrl: UNSPLASH
 title: "A importância de ter um site o novo: currículo online"
 category: ti-para-todos
 author: Daniela Duarte
@@ -6,8 +7,9 @@ description: Para se destacar entre os profissionais, hoje a posta é ter um sit
   para divulgar e vender seu trabalho.
 date: 2017-11-01T02:26:10.000Z
 thumbnail: assets/img/site.png
+alt: Pessoa olhando tela do MacBook
 urlImage: https://unsplash.com/photos/6njoEbtarec
-nameUrl: UNSPLASH
+legend: UNSPLASH
 ---
 <!--StartFragment-->
 
