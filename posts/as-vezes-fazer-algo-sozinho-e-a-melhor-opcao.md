@@ -44,7 +44,7 @@ E eu pensava: eu tenho um projeto, mas ele não vai ser selecionado tem tanta ge
 
 Até que no último momento, antes da oficina de inovação que iria participar em outro espaço, eu fui lá e me inscrevi e fui para oficina, onde tivemos que criar um produto e até fazer pesquisa de mercado dentro da feira, foi uma experiência incrível e meu grupo até ganhou na apresentação de Pitch (apresentação do projeto geralmente de 3 a 5 minutos que tem como objetivo despertar o interesse de um investidor ou cliente):
 
-![Meu grupo do Sebrae do Pitch 5carregando o plano de negócios](assets/img/meu-grupo-no-pitch.png)
+![Meu grupo do Sebrae do Pitch carregando o plano de negócios](assets/img/meu-grupo-no-pitch.png)
 
 <!--StartFragment-->
 
