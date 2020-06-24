@@ -3,7 +3,7 @@ title: .HTACCESS - Como fazer URLs amigáveis (sem .html) no Amazon EC2
 category: tecnologia
 author: Daniela Duarte
 description: "Aprenda a fazer URLs amigáveis "
-date: 2018-01-16 12:29:14
+date: 2018-01-16T12:29:14.000Z
 thumbnail: assets/img/url.jpg
 alt: "Imagem da url: http://www."
 urlImage: https://pixabay.com/pt/illustrations/http-www-digital-368146/
@@ -21,7 +21,7 @@ Desde que lancei o site, estava implicando com isso:
 
 <!--EndFragment-->
 
-![Imagem da url: danieladuarte.com.br/sobremim.html](/assets/img/url-com-ponto-html-no-final.jpg)
+![Imagem da url: danieladuarte.com.br/sobremim.html](assets/img/url-com-ponto-html-no-final.jpg)
 
 <!--StartFragment-->
 
@@ -29,6 +29,6 @@ Minhas URLs com .html no final, estava me dando nos nervos, eu pensava: como alg
 
 Somente agora tive tempo de começar as modificações no meu site, e essa era a primeira da lista, foi difícil saber o que procurar para transformar minha URL em uma URL amigável, como essa:
 
-
-
 <!--EndFragment-->
+
+![]()
