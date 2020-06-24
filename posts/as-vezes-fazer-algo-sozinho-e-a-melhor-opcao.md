@@ -93,3 +93,21 @@ Eu fiquei a maior parte do meu tempo, pensando que o porque dessa escolha era pa
 ## Minha apresentação:
 
 <!--EndFragment-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/12R6w5bGu70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--StartFragment-->
+
+## Meu resultado:
+
+<!--EndFragment-->
+
+![Folha de aprovação do tcc com nota 10](assets/img/folha-de-aprovacao-com-nota-10.jpg)
+
+<!--StartFragment-->
+
+Tirei 10 no [meu TCC](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1) (não acredito que nota defina mérito ou inteligência, mas essa nota comprovou que todo o esforço valeu a pena, eu me dediquei e enfretei altos e baixos para conquistar isso, quase não acreditei na hora que o professor anunciou a nota...)
+
+Gratidão 2017, cheia de altos e baixos, mas a vida é assim mesmo, igual nossos batimentos cardíacos: tem altos e baixos, porque se ficar muito tempo em uma altura, você acaba morrendo... E que venha 2018, cheio de novos desafios e evoluções.
+
+<!--EndFragment-->
