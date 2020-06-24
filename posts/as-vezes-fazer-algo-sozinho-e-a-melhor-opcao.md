@@ -4,7 +4,7 @@ category: aprendizados
 author: Daniela Duarte
 description: Reflexão sobre como às vezes precisamos agir sozinhos para que
   possamos crescer.
-date: 2017-12-29 11:58:22
+date: 2017-12-29T11:58:22.000Z
 thumbnail: assets/img/mulher-sentada-na-montanha.png
 alt: Mulher sentada na montanha
 urlImage: https://pixabay.com/pt/altiplano-montanha-vista-paisagem-2599412/
@@ -43,3 +43,53 @@ Até que veio a Feira do Empreendedor: SEBRAE, fiquei a maior parte do tempo nas
 E eu pensava: eu tenho um projeto, mas ele não vai ser selecionado tem tanta gente...
 
 Até que no último momento, antes da oficina de inovação que iria participar em outro espaço, eu fui lá e me inscrevi e fui para oficina, onde tivemos que criar um produto e até fazer pesquisa de mercado dentro da feira, foi uma experiência incrível e meu grupo até ganhou na apresentação de Pitch (apresentação do projeto geralmente de 3 a 5 minutos que tem como objetivo despertar o interesse de um investidor ou cliente):
+
+![Meu grupo do Sebrae do Pitch carregando o plano de negócios](assets/img/meu-grupo-no-pitch.png)
+
+<!--StartFragment-->
+
+Depois de alguns dias, recebi o comunicado que meu projeto tinha sido selecionado para estudar na escola de negócios do Sebrae, o horário era horrível, era um mês todo, duas vezes por semana.
+
+O que eu fiz? Conversei com meus professores e coordenador de curso da faculdade, que estaria ausente alguns dias, devido a essa oportunidade e falei a real para meu chefe: "Vou atrás do que me faz feliz, é uma ótima oportunidade, nos dias que não tiver aula, fico até mais tarde".
+
+E foi assim que fiz a mentoria de Startup no Sebrae, arriscando várias coisas, mas com a certeza que valeria a pena. Aprendi muita coisa lá até a fazer [um pitch](https://www.youtube.com/watch?v=2OGWUb0Bfi8) (na feira meu amigo que fez em nome do grupo), além de ter conhecido muita gente que me ajudou a crescer muito.
+
+## 2º Semestre de 2017
+
+Em julho, pedi para adiantar minhas férias para focar no [TCC](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1), pois passei um mês imersa no Sebrae, então o desenvolvimento do meu TCC em si, não houve. Minha documentação estava praticamente pronta, mas o software e o hardware nada feito.
+
+Porém, acabei ficando as duas primeiras semanas de férias, com depressão. A separação dos meus pais, meu emprego que não gostava, mais a pressão de fazer o [TCC sozinha](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1), me atingiram de uma forma que não conseguia voltar e nem fazer nada, porém [a meditação](https://www.amazon.com.br/gp/product/8543103215/ref=as_li_tl?ie=UTF8&tag=danieladuarte-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=8543103215&linkId=7d9639259155687fc1e18ddfc09df6e0) e uma bronca da minha nutricionista me fizeram voltar.
+
+Terminei minhas férias como o software concluído, voltando de férias soube que meu contrato seria encerrado dia 31 de outubro, sendo que era para terminar só em dezembro. Cheguei em casa, criei uma página no facebook e divulguei nas redes sociais, avisando: "1º de novembro teremos novidade", estava disposta a me lançar como [desenvolvedora web](http://danieladuarte.com.br/sobremim.html), já havia trabalhado nisso o ano todo em paralelo ao [meu TCC](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1), então me desafiei a criar meu site em um mês.
+
+Como estava com o software e a documentação pronta, falei: em novembro que eu termino [meu TCC](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1), e em dezembro apresento, já ta quase tudo pronto, então irei passar outubro focada no meu site.
+
+E passei outubro inteiro focada no meu site, no final do mês, quando fui começar a fazer o hardware do [meu TCC](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1), descobri que ele não pegava do jeito que queria e que minha ideia de pressão arterial também não daria certo, então tive que mudar de pressão arterial para frequência cardíaca e comprar novos componentes.
+
+Após o lançamento do meu site, nem pude pegar projetos, pois agora corria contra o tempo, [meu TCC](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1) tinha mudado completamente, tudo que havia feito em julho, e uma boa quantia de materiais foram jogados no lixo.
+
+Tive que refazer todo meu software e hardware em 3 semanas.
+
+E com o passar do tempo, toda hora, que eu falava que esta com dificuldades para concluir [meu TCC](https://www.youtube.com/watch?v=12R6w5bGu70&index=1&list=PLte-mbSlVBx9c_GgI7fwOdof1NxjRTsF1), eu ouvia: "Mas, você que escolheu isso" e eu ficava pensando: "Realmente eu escolhi, eu tenho que aguentar as consequências".
+
+Até que no dia 12 de novembro, 2 dias antes do meu aniversário, minha mãe perguntou novamente:
+
+"Como está o TCC?"
+
+E eu:
+
+"Estou com algumas dificuldades"
+
+E ela:
+
+"Você que escolheu fazer sozinha, agora aguenta, sempre precisamos dos outros. Não podemos fazer nada sozinhos".
+
+E eu até pensei em falar novamente que era verdade que eu que escolhi isso. Mas não. Me veio a cabeça isso:
+
+*Se você não tivesse escolhido fazer sozinha, seu projeto não teria sido escolhido no Sebrae, você não teria conhecido N pessoas, você não teria aprendido um monte de coisa de empreendedorismo, você não teria arriscado a trabalhar como freelancer e talvez, hoje você estivesse na mesma de 2016: infeliz e sem saber o que quer da vida.*
+
+Eu fiquei a maior parte do meu tempo, pensando que o porque dessa escolha era para mostrar que eu podia fazer algo em eletrônica sozinha, realmente no começo era, mas não, o propósito era algo muito maior.
+
+## Minha apresentação:
+
+<!--EndFragment-->
