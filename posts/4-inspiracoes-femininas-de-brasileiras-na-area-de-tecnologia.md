@@ -110,7 +110,6 @@ Conheci ela também na [FITIC](https://www.linkedin.com/company/9465812/), onde 
 **Formação:**
 
 
-
 * Especialista em Gestão de Negócios
 * Bacharel em Publicidade e Propaganda
 
