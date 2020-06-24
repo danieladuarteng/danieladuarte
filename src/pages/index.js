@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import Profile from "../components/Profile"
 import PostSection from "../components/PostSection"
+import Newsletter from "../components/Newsletter"
 import SEO from "../components/seo"
 
 const Description = () => (
@@ -40,6 +41,7 @@ const IndexPage = () => {
         }
       />
       <PostSection/>
+      <Newsletter />
     </Layout>
   )
 }

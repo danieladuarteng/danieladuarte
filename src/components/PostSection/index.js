@@ -7,7 +7,7 @@ import * as Style from "./styled"
 const PostSection = () =>{
   const { allMarkdownRemark } = useStaticQuery(graphql`
   query PostList {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 3) {
       edges {
         node {
           frontmatter {
@@ -15,6 +15,7 @@ const PostSection = () =>{
             title
             thumbnail
             urlImage
+            alt
           }
           fields {
             slug
@@ -38,7 +39,8 @@ return(
                     title, 
                     description,
                     thumbnail,
-                    urlImage
+                    urlImage,
+                    alt
                   },
                 fields: { slug },
               },
@@ -48,19 +50,22 @@ return(
                   title={title} 
                   description={description}
                   thumbnail={thumbnail}
-                  //legend={legend}
                   urlImage={urlImage} 
-                  //alt={alt}
+                  alt={alt}
                 />
               )
           )}
           </Style.PostSectionWrapper>
-        <Button 
-          title="TODOS OS ARTIGOS"
-          route="/blog"
-          color="#fff"
-          background="#c96893;"
-        />
+          <Style.PostSectionButton>
+            <Button 
+              title="TODOS OS ARTIGOS"
+              route="/blog"
+              color="#fff"
+              background="#c96893;"
+              marginTop={false}
+            />
+        </Style.PostSectionButton>
+        
     </>
   )
 }

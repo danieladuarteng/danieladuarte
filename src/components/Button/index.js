@@ -2,8 +2,8 @@ import React from "react"
 import PropTypes from 'prop-types'
 import * as Style from "./styled"
 
-const Button = ({title, background, color, route}) =>(
-  <Style.ButtonContainer background={background}>
+const Button = ({title, background, color, route, marginTop}) =>(
+  <Style.ButtonContainer marginTop={marginTop} background={background}>
     <Style.ButtonLink
       color={color}
       to={route}

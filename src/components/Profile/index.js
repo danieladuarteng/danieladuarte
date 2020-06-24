@@ -37,6 +37,7 @@ const Profile = ({ title, description, buttonConfig, color, background }) => {
               route={buttonConfig.route}
               color={buttonConfig.color} 
               background={buttonConfig.background}
+              marginTop={true}
             />
           )}
         </Style.ProfileDescription>

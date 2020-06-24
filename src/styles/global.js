@@ -68,5 +68,8 @@ const GlobalStyles = createGlobalStyle`
     line-height: 2.5rem;
     margin-bottom: 30px;
   }
+  button {
+    font-size: 1rem;
+  }
 `
 export default GlobalStyles

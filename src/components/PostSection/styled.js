@@ -4,10 +4,11 @@ export const PostSectionWrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  button {
-    display: flex;
-    justify-content: center;
-  }
+`
+
+export const PostSectionButton = styled.section`
+  display: flex;
+  justify-content: center;
 `
 
 export const PostSectionTitle = styled.h1`
