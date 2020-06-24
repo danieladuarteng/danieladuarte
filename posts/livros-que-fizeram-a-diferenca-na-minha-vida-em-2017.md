@@ -1,12 +1,14 @@
 ---
+nameUrl: PIXABAY
 title: Livros que fizeram a diferença na minha vida em 2017
 category: livros
 author: Daniela Duarte
 description: Alguns livros que fizeram meu 2017 diferente
 date: 2017-12-21T02:46:24.000Z
 thumbnail: assets/img/mulher-lendo-em-um-barco.jpg
+alt: Mulher lendo em um barco
 urlImage: https://pixabay.com/pt/leitura-lago-ver%C3%A3o-livro-menina-1698771/
-nameUrl: PIXABAY
+legend: PIXABAY
 ---
 <!--StartFragment-->
 
