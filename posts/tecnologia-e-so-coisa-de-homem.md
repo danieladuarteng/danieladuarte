@@ -35,7 +35,7 @@ Esse é outro fator que nos leva a não ter vontade de entrar na área: não tem
 
 <!--EndFragment-->
 
-![ADA LOVELACE](assets/img/daniela-duarte.jpg)
+![ADA LOVELACE](../assets/img/ada-lovelace.jpg)
 
 <!--StartFragment-->
 
