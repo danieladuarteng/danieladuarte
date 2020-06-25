@@ -58,12 +58,12 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: auto;
   }
-  p {
+  p, label {
     font-size: 1.2rem;
     line-height: 1.5rem;
     margin-bottom: 20px;
   }
-  h1 {
+  h1, legend {
     font-size: 2.2rem;
     line-height: 2.5rem;
     margin-bottom: 30px;

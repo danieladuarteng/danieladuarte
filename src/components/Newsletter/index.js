@@ -1,7 +1,9 @@
 import React from 'react'
+import Button from '../Button'
+import * as Style from "./styled"
 
 const Newsletter = () => (
-  <form 
+  <Style.NewsletterWrapper 
     action="https://danieladuarte.us17.list-manage.com/subscribe/post?u=99d5a979cddef03e25e111bb4&amp;id=b9fbd70afe" 
     method="post" 
     id="mc-embedded-subscribe-form" 
@@ -10,26 +12,25 @@ const Newsletter = () => (
     target="_blank" 
     novalidate
   >
-		<legend>Gostou do post?</legend>
-      <label for="mce-EMAIL">
-        <p>
-          Cadastre-se para receber gratuitamente novidades e publicações do blog por e-mail
-        </p>
-      </label>
+		<legend>Receba novidades por e-mail!</legend>
+      <Style.NewsletterLabel for="mce-EMAIL">
+        Cadastre-se para receber gratuitamente atualizações e publicações do blog na sua caixa de entrada!
+      </Style.NewsletterLabel>
       <input 
         type="email" 
         value="" 
         name="EMAIL" 
-        placeholder="Coloque seu melhor e-mail" 
+        placeholder="Seu melhor e-mail"
         required
       />
-      <input 
+      <Button
         type="submit" 
-        value="CADASTRAR" 
+        title="CADASTRAR" 
         name="subscribe" 
-        class="botaoEnviar-post"
-      />			
-	</form>
+        color="#029DDB"
+        background="#fff"
+      />		
+	</Style.NewsletterWrapper>
 )
 
 export default Newsletter

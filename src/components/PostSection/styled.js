@@ -1,12 +1,16 @@
 import styled from "styled-components"
 
-export const PostSectionWrapper = styled.section`
+export const PostSection = styled.section`
+  padding: 40px 20px;
+`
+
+export const PostSectionWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 `
 
-export const PostSectionButton = styled.section`
+export const PostSectionButton = styled.div`
   display: flex;
   justify-content: center;
 `
@@ -14,5 +18,4 @@ export const PostSectionButton = styled.section`
 export const PostSectionTitle = styled.h1`
   color: #c96893;
   text-align: center;
-  margin: 35px auto;
 `

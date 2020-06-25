@@ -12,7 +12,7 @@ export const ProfileDescription = styled.div`
   grid-area: description;
   background-color: #029DDB;
   color: #fff;
-  padding: 20px 40px
+  padding: 40px 20px;
 `
 
 export const ProfileAvatar = styled.div`

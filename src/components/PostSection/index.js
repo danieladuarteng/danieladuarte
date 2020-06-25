@@ -28,7 +28,7 @@ const PostSection = () =>{
 
 const postList = allMarkdownRemark.edges
 return(
-    <>
+    <Style.PostSection>
       <Style.PostSectionTitle>Artigos recentes</Style.PostSectionTitle>
         <Style.PostSectionWrapper>
           {postList.map(
@@ -66,7 +66,7 @@ return(
             />
         </Style.PostSectionButton>
         
-    </>
+    </Style.PostSection>
   )
 }
 

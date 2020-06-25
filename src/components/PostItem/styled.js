@@ -11,7 +11,7 @@ export const PostItemWrapper = styled.article`
   align-items: center;
   width: 100%;
   max-width: 400px;
-  padding: 2rem 1rem;
+  padding: 0 20px 20px 20px;
   img {
     display: block;
     width: 350px;
