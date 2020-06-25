@@ -29,6 +29,8 @@ Para minha sorte, fui filha única por 7 anos, e por extinto ou curiosidade, qua
 
 Isso fez que eu saísse um pouco da curva do padrão e despertasse o interesse na área, mesmo que inconscientemente.
 
+![](../assets/img/bel-pesce.jpg)
+
 ## Inspiração
 
 Esse é outro fator que nos leva a não ter vontade de entrar na área: não temos um Mark Zuckerberg ou Bill Gates mulher que nos inspire a entrar na área de tecnologia. E são poucos os exemplos que temos de mulheres que se sobressaem e elas não são tão destacadas pela mídia quanto deviam ser. Por exemplo, temos uma grande inspiração e exemplo feminino na área:
