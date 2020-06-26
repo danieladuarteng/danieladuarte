@@ -21,7 +21,7 @@ Desde que lancei o site, estava implicando com isso:
 
 <!--EndFragment-->
 
-![Imagem da url: danieladuarte.com.br/sobremim.html](assets/img/url-com-ponto-html-no-final.jpg)
+![Imagem da url: danieladuarte.com.br/sobremim.html](/assets/img/url-com-ponto-html-no-final.jpg)
 
 <!--StartFragment-->
 
