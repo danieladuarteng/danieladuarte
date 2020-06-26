@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const NewsletterWrapper = styled.form`
   display: flex;
   flex-direction: column;
@@ -18,6 +17,7 @@ export const NewsletterWrapper = styled.form`
     padding: 20px 10px;
     width: 100%;
     max-width: 500px;
+    border: none;
   }
 `
 export const NewsletterLabel = styled.label`

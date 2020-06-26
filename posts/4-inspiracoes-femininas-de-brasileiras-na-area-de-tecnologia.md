@@ -52,7 +52,7 @@ Atualmente seus negócios são focados em aprendizado:
 
 <!--EndFragment-->
 
-![Flávia costa com blusa vermelha com o rosto meio de lado com a mão no queixo e sorrindo com a boca fechada](/assets/img/flavia-costa.jpg)
+![Flávia Costa com blusa vermelha com o rosto meio de lado com a mão no queixo e sorrindo com a boca fechada](/assets/img/flavia-costa.jpg)
 
 <!--StartFragment-->
 
