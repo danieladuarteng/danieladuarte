@@ -17,7 +17,7 @@ Hospedei meu site no EC2 da Amazon, e configurar isso é foda para quem não sab
 
 Desde que lancei o site, estava implicando com isso:
 
-![Imagem da url: danieladuarte.com.br/sobremim.html](assets/img/url-com-ponto-html-no-final.jpg)
+![Imagem da url: danieladuarte.com.br/sobremim.html](/assets/img/url-com-ponto-html-no-final.jpg)
 
 Minhas URLs com .html no final, estava me dando nos nervos, eu pensava: como alguém vai pedir para eu fazer um site com essa URL feia desse jeito, parece que nem sabe fazer site :O
 
