@@ -17,7 +17,7 @@ Hoje irei mostrar as mulheres que trabalham com tecnologia que mais me inspiram 
 
 <!--EndFragment-->
 
-![Bel Pesce olhando para o lado sorrindo e segurando o celular em cima da mesa, que tem um vaso com flores amarelas ao seu lado esquerdo](assets/img/bel-pesce.jpg)
+![Bel Pesce olhando para o lado sorrindo e segurando o celular em cima da mesa, que tem um vaso com flores amarelas ao seu lado esquerdo](/assets/img/bel-pesce.jpg)
 
 <!--StartFragment-->
 
@@ -54,7 +54,7 @@ Atualmente seus negócios são focados em aprendizado:
 
 
 
-![Flávia costa com blusa vermelha com o rosto meio de lado com a mão no queixo e sorrindo com a boca fechada](assets/img/flavia-costa.jpg)
+![Flávia costa com blusa vermelha com o rosto meio de lado com a mão no queixo e sorrindo com a boca fechada](/assets/img/flavia-costa.jpg)
 
 <!--StartFragment-->
 
@@ -77,7 +77,7 @@ Conheci ela no painel de mulheres da [FITIC 2016](https://www.linkedin.com/compa
 
 <!--EndFragment-->
 
-![Raquel Molina segurando um drone no stand da empresa Futuriste](assets/img/raquel-molina.jpg)
+![Raquel Molina segurando um drone no stand da empresa Futuriste](/assets/img/raquel-molina.jpg)
 
 <!--StartFragment-->
 
@@ -99,7 +99,7 @@ Conheci ela também na [FITIC](https://www.linkedin.com/company/9465812/), onde 
 
 <!--EndFragment-->
 
-![Roberta Vasconcellos falando no microfone](assets/img/roberta-vasconcellos.jpg)
+![Roberta Vasconcellos falando no microfone](/assets/img/roberta-vasconcellos.jpg)
 
 <!--StartFragment-->
 
