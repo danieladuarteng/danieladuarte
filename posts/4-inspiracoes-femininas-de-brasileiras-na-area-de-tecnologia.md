@@ -52,8 +52,6 @@ Atualmente seus negócios são focados em aprendizado:
 
 <!--EndFragment-->
 
-
-
 ![Flávia costa com blusa vermelha com o rosto meio de lado com a mão no queixo e sorrindo com a boca fechada](/assets/img/flavia-costa.jpg)
 
 <!--StartFragment-->
@@ -109,31 +107,20 @@ Conheci ela também na [FITIC](https://www.linkedin.com/company/9465812/), onde 
 
 **Formação:**
 
-
 * Especialista em Gestão de Negócios
 * Bacharel em Publicidade e Propaganda
 
-
-
 **Prêmios e reconhecimentos:**
-
-
 
 * Ganhou o primeiro lugar no The Startup Games UKTI (2016)
 * Escolhida pela Forbes Brasil em sua lista de "30 abaixo de 30" (2015)
-
-
 
 A conheci no painel de mulheres na [FITIC 2016](https://www.linkedin.com/company/9465812/), onde coordenou o painel.
 
 A única que não é formada em tecnologia, mas possui duas empresas na área de tecnologia:
 
-
-
 * **[Tysdo:](http://simi.org.br/noticia/apos-sucesso-com-app-tysdo-startup-aposta-no-beerorcoffee.html)** app que ajuda as pessoas a realizarem seus sonhos por meio da conexão de pessoas com a ajuda da tecnologia.
 * **[BeerOrCoffee:](https://beerorcoffee.com/coworking)** plataforma de networking, que conecta pessoas para tomar um café ou uma cerveja, para assim facilitar o networking e quebrar o "gelo", além de promover coworkings para esses encontros.
-
-
 
 E essas são algumas das minhas inspirações, que me fazem continuar e seguir em frente nessa carreira onde a maioria é homem.
 
