@@ -3,7 +3,7 @@ title: Aplicativos que me ajudam no dia a dia e que podem ajudar você também
 category: ti-para-todos
 author: Daniela Duarte
 description: Dica de aplicativos que uso.
-date: 2020-06-27 01:52:35
+date: 2018-05-24 10:52:35
 thumbnail: /assets/img/mao-segurando-celular.jpg
 alt: Uma mão segurando o celular a aparecendo linhas coloridas que saem da tela
 urlImage: https://pixabay.com/pt/computador-port%C3%A1til-maquete-2838921/
