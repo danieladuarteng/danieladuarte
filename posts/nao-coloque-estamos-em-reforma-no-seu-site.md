@@ -3,7 +3,7 @@ title: 'Não coloque: "estamos em reforma" no seu site'
 category: tecnologia
 author: Daniela Duarte
 description: 'Entenda como a mensagem: "Estamos em reforma" prejudica seu negócio.'
-date: 2018-06-06 01:55:02
+date: 2018-06-06 10:55:02
 thumbnail: /assets/img/mensagem-site-em-reforma.jpg
 alt: Mensagem site em reforma com a placa de atenção
 urlImage: http://danieladuarte.com.br/
