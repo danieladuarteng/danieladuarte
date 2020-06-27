@@ -4,7 +4,7 @@ category: mulheres-ti
 author: Daniela Duarte
 description: Conheça 4 inspirações femininas brasileiras que arrasam na área de tecnologia.
 date: 2018-01-09T12:09:32.000Z
-thumbnail: assets/img/mulher-com-oculos-de-realidade-virtual.jpg
+thumbnail: /assets/img/mulher-com-oculos-de-realidade-virtual.jpg
 alt: Mulher com óculos de realidade virtual olhando para uma parede cheia de códigos
 urlImage: https://pixabay.com/pt/vidros-cibern%C3%A9ticos-virtual-1938449/
 legend: PIXABAY

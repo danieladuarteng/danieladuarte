@@ -1,5 +1,5 @@
 import React from "react"
-import PostItem from "../components/PostItem"
+import PostSection from "../components/PostSection"
 import Pagination from "../components/Pagination"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -7,6 +7,7 @@ import { graphql } from "gatsby"
 
 const BlogList = props => {
   const postList = props.data && props.data.allMarkdownRemark.edges
+
 
   const { currentPage, numPages } = props.pageContext
   const isFirst = currentPage === 1
@@ -17,16 +18,7 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Blog" />
-      {postList.map(
-        ({
-          node: {
-            frontmatter: { title, description },
-            fields: { slug },
-          },
-        }) => (
-            <PostItem slug={slug} title={title} description={description} />
-          )
-      )}
+      <PostSection postList={postList} />
       <Pagination
         isFirst={isFirst}
         isLast={isLast}
@@ -49,12 +41,12 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            category
-            date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
             description
             title
+            thumbnail
+            urlImage
+            alt
           }
-          timeToRead
           fields {
             slug
           }

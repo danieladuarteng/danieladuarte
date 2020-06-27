@@ -1,35 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import PostItem from "../PostItem"
-import { useStaticQuery, graphql, Link } from "gatsby"
+
 import Button from '../Button'
 import * as Style from "./styled"
 
-const PostSection = () =>{
-  const { allMarkdownRemark } = useStaticQuery(graphql`
-  query PostList {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 3) {
-      edges {
-        node {
-          frontmatter {
-            description
-            title
-            thumbnail
-            urlImage
-            alt
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  }
-`)
-
-const postList = allMarkdownRemark.edges
-return(
+const PostSection = ({postList, title, button}) => (
     <Style.PostSection>
-      <Style.PostSectionTitle>Artigos recentes</Style.PostSectionTitle>
+      {title && (
+        <Style.PostSectionTitle>
+          Artigos recentes
+        </Style.PostSectionTitle>
+      )}
         <Style.PostSectionWrapper>
           {postList.map(
             ({
@@ -56,18 +38,25 @@ return(
               )
           )}
           </Style.PostSectionWrapper>
-          <Style.PostSectionButton>
-            <Button 
-              title="TODOS OS ARTIGOS"
-              route="/blog"
-              color="#fff"
-              background="#c96893;"
-              marginTop={false}
-            />
-        </Style.PostSectionButton>
-        
+          {button && (
+            <Style.PostSectionButton>
+              <Button 
+                title="TODOS OS ARTIGOS"
+                route="/blog"
+                color="#fff"
+                background="#c96893;"
+                marginTop={false}
+              />
+            </Style.PostSectionButton>
+          )}
+          
     </Style.PostSection>
-  )
+)
+
+PostSection.propTypes = {
+  postList: PropTypes.array.isRequired,
+  title: PropTypes.bool,
+  button: PropTypes.bool,
 }
 
 export default PostSection

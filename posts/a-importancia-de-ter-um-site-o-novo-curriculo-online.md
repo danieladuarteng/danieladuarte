@@ -6,7 +6,7 @@ author: Daniela Duarte
 description: Para se destacar entre os profissionais, hoje a posta é ter um site
   para divulgar e vender seu trabalho.
 date: 2017-11-01T02:26:10.000Z
-thumbnail: assets/img/site.png
+thumbnail: /assets/img/site.png
 alt: Pessoa olhando tela do MacBook
 urlImage: https://unsplash.com/photos/6njoEbtarec
 legend: UNSPLASH

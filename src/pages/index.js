@@ -1,4 +1,5 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Profile from "../components/Profile"
 import PostSection from "../components/PostSection"
@@ -25,6 +26,29 @@ const Description = () => (
 );
 
 const IndexPage = () => {
+  const { allMarkdownRemark } = useStaticQuery(graphql`
+    query PostList {
+      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 3) {
+        edges {
+          node {
+            frontmatter {
+              description
+              title
+              thumbnail
+              urlImage
+              alt
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `)
+
+const postList = allMarkdownRemark.edges
+
   return (
     <Layout>
       <SEO title="Home" />
@@ -40,7 +64,7 @@ const IndexPage = () => {
           }
         }
       />
-      <PostSection/>
+      <PostSection postList={postList} title={true} button={true}/>
       <Newsletter />
     </Layout>
   )

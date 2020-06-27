@@ -2,10 +2,9 @@
 title: Às vezes fazer algo sozinho é a melhor opção
 category: aprendizados
 author: Daniela Duarte
-description: Reflexão sobre como às vezes precisamos agir sozinhos para que
-  possamos crescer.
+description: Reflexão sobre como às vezes precisamos agir sozinhos para que possamos crescer.
 date: 2017-12-29T11:58:22.000Z
-thumbnail: assets/img/mulher-sentada-na-montanha.png
+thumbnail: /assets/img/mulher-sentada-na-montanha.png
 alt: Mulher sentada na montanha
 urlImage: https://pixabay.com/pt/altiplano-montanha-vista-paisagem-2599412/
 legend: PIXABAY

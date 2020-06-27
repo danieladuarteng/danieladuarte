@@ -33,16 +33,16 @@ exports.createPages = ({ graphql, actions }) => {
 
   return graphql(`
   {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 9) {
       edges {
         node {
           frontmatter {
-            category
-            date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
             description
             title
+            thumbnail
+            urlImage
+            alt
           }
-          timeToRead
           fields {
             slug
           }
@@ -79,7 +79,7 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-    const postsPerPage = 2
+    const postsPerPage = 6
     const numPages = Math.ceil(posts.length / postsPerPage) // rounds up
 
     Array.from({ length: numPages }).forEach((_, index) => {

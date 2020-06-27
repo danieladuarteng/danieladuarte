@@ -4,7 +4,7 @@ category: tecnologia
 author: Daniela Duarte
 description: "Aprenda a fazer URLs amigáveis "
 date: 2018-01-16T12:29:14.000Z
-thumbnail: assets/img/url.jpg
+thumbnail: /assets/img/url.jpg
 alt: "Imagem da url: http://www."
 urlImage: https://pixabay.com/pt/illustrations/http-www-digital-368146/
 legend: PIXABAY
