@@ -3,7 +3,7 @@ title: Como criar um espaço de comentários no seu Blog mesmo sem ser programad
 category: ti-para-todos
 author: Daniela Duarte
 description: Conheça do Disqus
-date: 2018-01-30 11:18:00
+date: 2018-01-30T11:18:00.000Z
 thumbnail: /assets/img/logo-disqus.jpg
 alt: Logo do Disqus
 urlImage: https://disqus.com/
@@ -56,7 +56,7 @@ Após preenchimento dos campos, clique em CREATE SITE
 
 10. Aparecerá uma tela com os códigos que devem ser colocados no seu site, a primeira linha do código `<div id="disqus_thread"></div>`, deverá ser copiada e inserida no local onde você quer que apareça os comentários.
 11. O resto do código deve ser inserido do fechamento da tag head do arquivo do seu post
-12. Pronto, agora seus posts aparecerão assim:
+12.Pronto, agora seus posts aparecerão assim:
 
     ![Print da sessão de comentários do site danieladuarte.com.br](/assets/img/exemplo-de-comentario.jpg)
 
