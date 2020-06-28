@@ -72,21 +72,13 @@ Após preenchimento dos campos, clique em CREATE SITE
 
     Clicando no perfil da pessoa, é possível acompanhar o leitor e também eles podem te acompanhar, caso queira que isso fique privado, existe uma opção na parte de configurações.
 
-    ![](/assets/img/perfil-disqus.jpg)
-
     ## 3. Acompanhar notificações
 
     A. Na parte Administrativa do Disqus, acessando Notifications > Settings
 
-    ![](https://www.danieladuarte.com.br/imagens/notificacoes.jpg)
-
     B. É exibida a tela Web Notifications onde é possível configurar as notificações de comentários
 
-    ![](https://www.danieladuarte.com.br/imagens/configurar-notificacoes.jpg)
-
     C. E em Email Notifications é possível optar por as iterações serem enviadas por e-mail
-
-    ![](https://www.danieladuarte.com.br/imagens/email-notificacoes.jpg)
 
     ...
 
@@ -94,4 +86,4 @@ Após preenchimento dos campos, clique em CREATE SITE
 
     ...
 
-    *Transparência: Prints retirados do site: [DISQUS](https://disqus.com/) e do desse site.*
+    *Transparência: Prints retirados do site: [DISQUS](https://disqus.com/) e  deste site.*
