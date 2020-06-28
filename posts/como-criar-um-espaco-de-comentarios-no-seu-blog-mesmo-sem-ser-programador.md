@@ -3,7 +3,7 @@ title: Como criar um espaço de comentários no seu Blog mesmo sem ser programad
 category: ti-para-todos
 author: Daniela Duarte
 description: Conheça do Disqus
-date: 2018-01-30 01:18:50
+date: 2018-01-30T01:18:50.000Z
 thumbnail: /assets/img/logo-disqus.jpg
 alt: Logo do Disqus
 urlImage: https://disqus.com/
@@ -54,4 +54,44 @@ Após preenchimento dos campos, clique em CREATE SITE
 
 ![Print da seleção das plataformas, destacando a opção: I don’t see my platform listed, install manually with Universal Code](/assets/img/plataforma-nao-listada.jpg)
 
-10. A primeira linha do código (destacada em amarelo), deverá ser copiada e inserida no local onde você quer que apareça os comentários
+10. Aparecerá uma tela com os códigos que devem ser colocados no seu site, a primeira linha do código `<div id="disqus_thread"></div>`, deverá ser copiada e inserida no local onde você quer que apareça os comentários.
+11. O resto do código deve ser inserido do fechamento da tag head do arquivo do seu post
+12. Pronto, agora seus posts aparecerão assim:
+
+    ![Print da sessão de comentários do site danieladuarte.com.br](/assets/img/exemplo-de-comentario.jpg)
+
+    ## Bônus
+
+    ## 1. Comentar como moderador
+
+    Para comentar como moderador do site é só logar com sua conta Disqus ou como no meu caso no Facebook.
+
+    ![Print de resposta de um comentário com o perfil de moderador](/assets/img/comentario-moderador.jpg)
+
+    ## 2. Seguir seus leitores
+
+    Clicando no perfil da pessoa, é possível acompanhar o leitor e também eles podem te acompanhar, caso queira que isso fique privado, existe uma opção na parte de configurações.
+
+    ![](/assets/img/perfil-disqus.jpg)
+
+    ## 3. Acompanhar notificações
+
+    A. Na parte Administrativa do Disqus, acessando Notifications > Settings
+
+    ![](https://www.danieladuarte.com.br/imagens/notificacoes.jpg)
+
+    B. É exibida a tela Web Notifications onde é possível configurar as notificações de comentários
+
+    ![](https://www.danieladuarte.com.br/imagens/configurar-notificacoes.jpg)
+
+    C. E em Email Notifications é possível optar por as iterações serem enviadas por e-mail
+
+    ![](https://www.danieladuarte.com.br/imagens/email-notificacoes.jpg)
+
+    ...
+
+    O que achou desse post? Quer ver mais conteúdos parecidos com esse? Sabia configurar o DISQUS no seu site? Deixe seu comentário e se ficou alguma dúvida só postar nos comentários ;)
+
+    ...
+
+    *Transparência: Prints retirados do site: [DISQUS](https://disqus.com/) e do desse site.*
