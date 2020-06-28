@@ -3,7 +3,7 @@ title: Como criar um espaço de comentários no seu Blog mesmo sem ser programad
 category: ti-para-todos
 author: Daniela Duarte
 description: Conheça do Disqus
-date: 2018-01-30T01:18:50.000Z
+date: 2018-01-30 11:18:00
 thumbnail: /assets/img/logo-disqus.jpg
 alt: Logo do Disqus
 urlImage: https://disqus.com/
