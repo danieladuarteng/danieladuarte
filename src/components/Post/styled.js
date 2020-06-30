@@ -10,13 +10,15 @@ export const PostTitle = styled.h1`
   font-size: 4rem;
   font-weight: 700;
   padding: 0 1.4rem;
-  margin: 1rem auto;
+  line-height: 4rem;
+  color: #c96893;
 `
 
 export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
+  color: #c96893;
 `
 
 export const PostDate = styled.p`
@@ -145,14 +147,14 @@ export const MainContent = styled.section`
     margin: 1rem auto !important;
   }
   a {
-    border-bottom: 1px dashed #1fa1f2;
+    color: #ce7ec3;
+    font-weight: 900;
     text-decoration: none;
-    transition: opacity 0.5s;
     svg {
       color: #000;
     }
-    &:hover {
-      opacity: 0.8;
+    &:visited {
+      border-bottom: 1px dashed #57b5ed;
     }
   }
 `

@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from '../components/RecommendedPosts'
+import Newsletter from '../components/Newsletter'
 import Comments from '../components/Comments'
 import { graphql } from "gatsby"
 import * as Style from "../components/Post/styled"
@@ -22,6 +23,7 @@ const BlogPost = ({ data, pageContext }) => {
       <Style.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
       </Style.MainContent>
+      <Newsletter title="Gostou do post?" />
       <RecommendedPosts next={next} previous={previous} />
       <Comments url={post.fields.slug} title={post.frontmatter.title} />
     </Layout>

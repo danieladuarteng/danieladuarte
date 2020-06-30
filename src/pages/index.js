@@ -48,6 +48,7 @@ const IndexPage = () => {
   `)
 
 const postList = allMarkdownRemark.edges
+const newsletterTitle = 'Receba novidades por e-mail!'
 
   return (
     <Layout>
@@ -65,7 +66,7 @@ const postList = allMarkdownRemark.edges
         }
       />
       <PostSection postList={postList} title={true} button={true}/>
-      <Newsletter />
+      <Newsletter title={newsletterTitle}/>
     </Layout>
   )
 }
