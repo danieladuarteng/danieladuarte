@@ -16,6 +16,6 @@ export const PostSectionButton = styled.div`
 `
 
 export const PostSectionTitle = styled.h1`
-  color: #c96893;
+  color: #fc3cb4;
   text-align: center;
 `

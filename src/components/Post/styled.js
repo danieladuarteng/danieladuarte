@@ -11,14 +11,14 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   padding: 0 1.4rem;
   line-height: 4rem;
-  color: #c96893;
+  color: #fc3cb4;
 `
 
 export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
-  color: #c96893;
+  color: #fc3cb4;
 `
 
 export const PostDate = styled.p`
@@ -49,6 +49,7 @@ export const MainContent = styled.section`
   }
   p {
     margin: 0 auto 1.6rem;
+    color: #47525e;
   }
   h1,
   h2,
@@ -147,14 +148,14 @@ export const MainContent = styled.section`
     margin: 1rem auto !important;
   }
   a {
-    color: #ce7ec3;
+    color: #67aaf9;
     font-weight: 900;
     text-decoration: none;
     svg {
       color: #000;
     }
     &:visited {
-      border-bottom: 1px dashed #57b5ed;
+      border-bottom: 1px dashed #9bbdf9;
     }
   }
 `

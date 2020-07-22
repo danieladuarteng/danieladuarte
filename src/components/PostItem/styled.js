@@ -23,7 +23,7 @@ export const PostItemWrapper = styled.article`
 `
 
 export const PostItemTitle = styled.h1`
-  color: #c96893;
+  color: #fc3cb4;
   text-align: center;
 `
 
