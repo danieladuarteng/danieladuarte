@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const MenuWrapper = styled.nav`
-  background-color: #fc3cb4;
+  background-color: #e86ed0;
 `
 
 export const MenuList = styled.ul`
