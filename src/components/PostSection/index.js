@@ -44,7 +44,7 @@ const PostSection = ({postList, title, button}) => (
                 title="TODOS OS ARTIGOS"
                 route="/blog"
                 color="#fff"
-                background="#fc3cb4;"
+                background="#e86ed0;"
                 marginTop={false}
               />
             </Style.PostSectionButton>

@@ -11,14 +11,14 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   padding: 0 1.4rem;
   line-height: 4rem;
-  color: #fc3cb4;
+  color: #e86ed0;
 `
 
 export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
-  color: #fc3cb4;
+  color: #e86ed0;
 `
 
 export const PostDate = styled.p`
