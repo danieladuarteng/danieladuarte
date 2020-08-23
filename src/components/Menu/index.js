@@ -19,14 +19,24 @@ const Menu = () => {
     `
   )
 
-  return(
+  return (
+    <Style.Div>
+      <Style.Input
+        id="btn_menu"
+        type="checkbox"
+      />
+        <label htmlFor="btn_menu" className="label">
+          &#9776;
+        </label>
       <Style.MenuWrapper>
         <Style.MenuList>
-        <Img
-          fixed={logo.childImageSharp.fixed}
-          alt="Daniela Duarte"
-        ///style={{ width: "100px", height: "100px" }}
-        />
+          <Style.MenuItem>
+            <Img
+              fixed={logo.childImageSharp.fixed}
+              alt="Daniela Duarte"
+            ///style={{ width: "100px", height: "100px" }}
+            />
+          </Style.MenuItem>
           {links.map((link, index) => (
             <Style.MenuItem key={index}>
               <Style.MenuLink to={link.url} activeClassName="active">
@@ -36,9 +46,10 @@ const Menu = () => {
           ))}
         </Style.MenuList>
       </Style.MenuWrapper>
-    )
+    </Style.Div>
+  )
 }
-  
+
 
 
 
