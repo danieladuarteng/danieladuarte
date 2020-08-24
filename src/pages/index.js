@@ -13,11 +13,8 @@ const Description = () => (
     criação de documentação de sistemas à 
     criação de sites, hotsites e e-mail marketing.</p>
     <p>Nos últimos anos, me especializei em desenvolvimento 
-    frontend, ou seja, a parte visual de aplicativos 
-    ou sites.</p>
-    <p>Atualmente trabalho como Desenvolvedora 
-    Frontend, criando interfaces iterativas que 
-    atendam as necessidades do cliente.</p>
+    frontend, ou seja, faço os designs se tornarem reais e 
+    iterativos no mundo da tecnologia.</p>
     <p>
     Além disso, produzo conteúdo sobre 
     tecnologia, experiências e aprendizados 
@@ -65,8 +62,8 @@ const newsletterTitle = 'Receba novidades por e-mail!'
           }
         }
       />
-      <PostSection postList={postList} title={true} button={true}/>
-      <Newsletter title={newsletterTitle}/>
+      {/* <PostSection postList={postList} title={true} button={true}/>
+      <Newsletter title={newsletterTitle}/> */}
     </Layout>
   )
 }

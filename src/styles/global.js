@@ -71,5 +71,8 @@ const GlobalStyles = createGlobalStyle`
   button {
     font-size: 1rem;
   }
+  main {
+    padding-top: 120px;
+  }
 `
 export default GlobalStyles

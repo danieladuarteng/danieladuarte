@@ -25,7 +25,10 @@ const Profile = ({ title, description, buttonConfig, color, background }) => {
           <Img
             fluid={avatarImage.childImageSharp.fluid}
             alt="Daniela Duarte"
-            style={{ width: "500px", height: "450px" }}
+            style={{ 
+              height: "100%",
+              width: '100%',
+            }}
           />
         </Style.ProfileAvatar>
         <Style.ProfileDescription>
