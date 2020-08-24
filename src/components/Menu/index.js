@@ -21,37 +21,46 @@ const Menu = () => {
 
   return (
     <Style.Div>
+
+      <Style.MenuLogo>
+
+        <Img
+          fixed={logo.childImageSharp.fixed}
+          alt="Logo escrito Daniela Duarte"
+        />
+
+        <Style.Label
+          htmlFor="btn_menu"
+        >
+          &#9776;
+        </Style.Label>
+
+      </Style.MenuLogo>
+
       <Style.Input
         id="btn_menu"
         type="checkbox"
       />
-        <label htmlFor="btn_menu" className="label">
-          &#9776;
-        </label>
-      <Style.MenuWrapper>
-        <Style.MenuList>
-          <Style.MenuItem>
-            <Img
-              fixed={logo.childImageSharp.fixed}
-              alt="Daniela Duarte"
-            ///style={{ width: "100px", height: "100px" }}
-            />
+
+      <Style.MenuList>
+
+        {links.map((link, index) => (
+          <Style.MenuItem key={index}>
+
+            <Style.MenuLink
+              to={link.url}
+              activeClassName="active"
+            >
+              {link.label}
+            </Style.MenuLink>
+            
           </Style.MenuItem>
-          {links.map((link, index) => (
-            <Style.MenuItem key={index}>
-              <Style.MenuLink to={link.url} activeClassName="active">
-                {link.label}
-              </Style.MenuLink>
-            </Style.MenuItem>
-          ))}
-        </Style.MenuList>
-      </Style.MenuWrapper>
+        ))}
+
+      </Style.MenuList>
+
     </Style.Div>
   )
 }
-
-
-
-
 
 export default Menu

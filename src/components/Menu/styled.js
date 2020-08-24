@@ -3,35 +3,58 @@ import media from "styled-media-query"
 import { Link } from "gatsby"
 
 export const Div = styled.div`
-  * {
-    font-size: 1.2rem;
-    font-weight: 300;
-  }
-
-  .label {
-    padding: 5px;
-    background-color: #e86ed0;
-    color: #fff;
-    cursor: pointer;
-    width: 50px;
-    heigth: 50px;
-    text-align: center;
-    display: none;
-  }
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-color: #e86ed0;
+  
   ${media.lessThan("medium")`
     /* screen width is less than 768px (medium) */
-    .label { display: block }
+    display: block;
+    background-color: unset;
   `}
 `
-export const MenuWrapper = styled.nav`
+
+export const MenuLogo = styled.div`
+  display: flex;
   background-color: #e86ed0;
-  width: 100%;
-  height: 120px;
+  padding: 10px 20px;
+
   ${media.lessThan("medium")`
     /* screen width is less than 768px (medium) */
-    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  `}
+`
+
+export const Label = styled.label`
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+  width: 50px;
+  margin: 0;
+  text-align: center;
+  display: none;
+  font-size: 3rem;
+
+  ${media.lessThan("medium")`
+    /* screen width is less than 768px (medium) */
+    display: block;
+  `}
+`
+export const MenuList = styled.ul`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+
+  ${media.lessThan("medium")`
+    /* screen width is less than 768px (medium) */
     margin-left: -100%;
     transition: all .4s;
+    display: block;
   `}
 `
 
@@ -39,22 +62,10 @@ export const Input = styled.input`
   display: none;
 
   &:checked {
-    & ~ ${MenuWrapper} {
-      margin-left: 0
+    & ~ ${MenuList} {
+      margin-left: 0;
     }
   }
-`
-export const MenuList = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style-type: none;
-  position: relative;
-
-  ${media.lessThan("medium")`
-    /* screen width is less than 768px (medium) */
-    display: block;
-` }
 `
 
 export const MenuItem = styled.li`
@@ -78,6 +89,7 @@ export const MenuLink = styled(Link)`
   padding: 15px;
   display: block;
   background-color: #e86ed0;
+  border: 1px solid #e86ed0;
 
   &:hover {
     background-color: #fff;
