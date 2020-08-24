@@ -7,7 +7,10 @@ export const Div = styled.div`
   font-size: 1.2rem;
   font-weight: 300;
   background-color: #e86ed0;
-  
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+
   ${media.lessThan("medium")`
     /* screen width is less than 768px (medium) */
     display: block;
