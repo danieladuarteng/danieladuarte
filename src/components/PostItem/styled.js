@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 export const PostItemLink = styled(Link)`
   text-decoration: none;
+  padding: 20px;
 `
 
 export const PostItemWrapper = styled.article`
@@ -13,8 +14,8 @@ export const PostItemWrapper = styled.article`
   max-width: 400px;
   img {
     display: block;
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     max-width: 350px;
     max-height: 200px;
     margin: auto auto 1.875rem auto;
