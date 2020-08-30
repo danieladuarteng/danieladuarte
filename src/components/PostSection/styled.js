@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const PostSection = styled.section`
-  padding: 40px 20px;
+  padding: 40px;
 `
 
 export const PostSectionWrapper = styled.div`
