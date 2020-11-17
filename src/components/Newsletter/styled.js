@@ -25,3 +25,30 @@ export const NewsletterLabel = styled.label`
   max-width: 500px;
   text-align: center;
 `
+export const Loader = styled.div`
+  border: 8px solid #e86ed0;
+  border-radius: 50%;
+  border-top: 8px solid #029DDB;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 50%;
+      left: 50%;
+      margin: -22px auto auto -22px;
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  /* Safari */
+  @-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+`
+
+export const ButtonWrapper = styled.div`
+  position: relative;
+  display: inline-block;
+`

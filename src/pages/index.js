@@ -67,7 +67,7 @@ const IndexPage = () => {
         title={true}
         button={true}
       />
-      {/* <Newsletter title={newsletterTitle}/> */}
+      <Newsletter title={newsletterTitle}/>
     </Layout>
   )
 }
