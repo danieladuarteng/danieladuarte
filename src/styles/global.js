@@ -73,6 +73,7 @@ const GlobalStyles = createGlobalStyle`
   }
   main {
     padding-top: 120px;
+    display: block;
   }
 `
 export default GlobalStyles

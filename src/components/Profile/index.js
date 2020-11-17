@@ -11,7 +11,7 @@ const Profile = ({ title, description, buttonConfig, color, background }) => {
       query {
         avatarImage: file(relativePath: { eq: "daniela-duarte.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 450) {
+            fluid(maxWidth: 450, maxHeight: 500) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
@@ -25,10 +25,7 @@ const Profile = ({ title, description, buttonConfig, color, background }) => {
           <Img
             fluid={avatarImage.childImageSharp.fluid}
             alt="Daniela Duarte"
-            style={{ 
-              height: "100%",
-              width: '100%',
-            }}
+            style={{ height: '100%', width: '100%'}}
           />
         </Style.ProfileAvatar>
         <Style.ProfileDescription>

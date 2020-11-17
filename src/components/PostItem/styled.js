@@ -16,8 +16,8 @@ export const PostItemWrapper = styled.article`
     display: block;
     width: 100%;
     height: 100%;
-    max-width: 350px;
-    max-height: 200px;
+    max-width: 400px;
+    max-height: 300px;
     margin: auto auto 1.875rem auto;
   }
 `
