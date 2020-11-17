@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
 module.exports = {
   siteMetadata: {
     title: `Daniela Duarte`,
@@ -50,7 +54,7 @@ module.exports = {
             }
           },
           `gatsby-remark-lazy-load`,
-          `gatsby-remark-prismjs`
+          `gatsby-remark-prismjs`,
         ],
       },
     },
@@ -69,6 +73,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: process.env.MAILCHIMP_ENDPOINT
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
